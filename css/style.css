@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400&display=swap');
+nav{
+    font-family: 'Roboto Mono', monospace;
+}
+#aside .card{
+    width: 50%;
+}
+
+.product-top{
+    right: 0;
+    top: 0px;
+}
+.ratting i{
+    font-size: 12px;
+    color: goldenrod;
+}
+.price{
+    font-weight: 500;
+}
+.product-top p{
+    display: none;
+    transition: display 0.2s ease-in-out;
+    cursor: pointer;
+}
+.products .card:hover .product-top p{
+    display: block;
+}
+.product-top p:hover{
+    color: #BB2D3B;
+}
+
+.products .card .add-card {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+    z-index: 2;
+    background: #ffffff;
+}
+.products .card:hover .add-card{
+    opacity: 1;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+    #aside .card{
+        width: 100%;
+    }
+}

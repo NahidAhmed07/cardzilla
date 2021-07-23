@@ -27,6 +27,7 @@ nav{
 }
 .product-top p:hover{
     color: #BB2D3B;
+    transition: 0.3s ease-in-out;
 }
 
 .products .card .add-card {
@@ -36,10 +37,16 @@ nav{
     cursor: pointer;
     z-index: 2;
     background: #ffffff;
+    left: 0;
 }
 .products .card:hover .add-card{
     opacity: 1;
 }
+.add-card p:hover{
+    color: #BB2D3B;
+    transition: 0.3s ease-in-out;
+}
+
 
 
 
